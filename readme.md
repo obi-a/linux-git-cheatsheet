@@ -5,4 +5,5 @@
   + `cd ~` - go to home directory
   + `cd <path>` go to specified path
   + `cd ..`  go up one directory
- 
+- `mkdir` command: creates a new directory with the specified name in the current directory.
+  + `mkdir <directory-name>` - creates a new directory with the specified name. 
