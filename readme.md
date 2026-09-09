@@ -12,3 +12,5 @@
   + `rm <file1> <file2> <file3>`: Deletes the specified files.
   + `rm -d <folder>`: Deletes empty directory.
   + `rm -r <folder>`: recursively delete directory and all its contents, including sub-directories. 
+- `cp <source> <destination>` command: Copies source file to the destination
+
