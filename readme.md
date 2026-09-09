@@ -7,3 +7,8 @@
   + `cd ..`  go up one directory
 - `mkdir` command: creates a new directory with the specified name in the current directory.
   + `mkdir <directory-name>` - creates a new directory with the specified name. 
+- `rm` command: removes a file, list of files or directories.
+  + `rm <filename>`: deletes the specified file.
+  + `rm <file1> <file2> <file3>`: Deletes the specified files.
+  + `rm -d <folder>`: Deletes empty directory.
+  + `rm -r <folder>`: recursively delete directory and all its contents, including sub-directories. 
