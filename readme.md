@@ -17,4 +17,8 @@
 - `pwd` command: displays the path of the current working directory. 
 - `touch` command: creates a single or multiple new files with the specified name(s).
   + `touch <filename>`: creates the specified file. 
-  + `touch <file1> <file2> <file3>`: creates the specified files. 
+  + `touch <file1> <file2> <file3>`: creates the specified files.
+- `cat` command: displays the contents of the specified file or files on the screen.
+  + `cat <filename>`: displays the contents of the specified file on screen.
+  + `cat <file1> <file2> <file3>`: displays the contents of the specified files on the screen.
+
