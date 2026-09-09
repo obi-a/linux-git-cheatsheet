@@ -25,8 +25,12 @@
 ## Git Commands
 - `git add` command: stages a file or group of files. 
   + `git add .`: stages all untracked files in the current git workspace.
-  +  git add <filename>`: stages the specified file.
-- `git commit` command: commit the staged files.
+  + `git add <filename>`: stages the specified file.
+- `git commit` command: commits the staged files.
   + `git commit -m <message>`: makes a commit with the specified message.
   + `git commit`: opens the editor for writing a commit message and then it commits with the message.
+- `git push` command: push local branch to the remote repository
+  + `git push origin <branch-name>`: push the specified branch to the remote repository.
+
+
 
