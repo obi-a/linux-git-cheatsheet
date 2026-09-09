@@ -12,6 +12,9 @@
   + `rm <file1> <file2> <file3>`: Deletes the specified files.
   + `rm -d <folder>`: Deletes empty directory.
   + `rm -r <folder>`: recursively delete directory and all its contents, including sub-directories. 
-- `cp <source> <destination>` command: Copies source file to the destination
+- `cp`command: Copies source file to the destination
+  + `cp <source-file> <destination-file>` copies source file to the destination-file. 
 - `pwd` command: displays the path of the current working directory. 
-
+- `touch` command: creates a single or multiple new files with the specified name(s).
+  + `touch <filename>`: creates the specified file. 
+  + `touch <file1> <file2> <file3>`: creates the specified files. 
