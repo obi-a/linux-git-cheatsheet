@@ -12,8 +12,8 @@
   + `rm <file1> <file2> <file3>`: Deletes the specified files.
   + `rm -d <folder>`: Deletes empty directory.
   + `rm -r <folder>`: recursively delete directory and all its contents, including sub-directories. 
-- `cp`command: Copies source file to the destination
-  + `cp <source-file> <destination-file>` copies source file to the destination-file. 
+- `cp` command: Copies source file to the destination
+  + `cp <source-file> <destination-file>`: copies source file to the destination-file. 
 - `pwd` command: displays the path of the current working directory. 
 - `touch` command: creates a single or multiple new files with the specified name(s).
   + `touch <filename>`: creates the specified file. 
@@ -22,3 +22,7 @@
   + `cat <filename>`: displays the contents of the specified file on screen.
   + `cat <file1> <file2> <file3>`: displays the contents of the specified files on the screen.
 
+## Git Commands
+- `git add` command: stages a file or group of files. 
+  + `git add .`: stages all untracked files in the current git workspace.
+  +  git add <filename>`: stages the specified file.
