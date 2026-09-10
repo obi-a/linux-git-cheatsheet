@@ -33,4 +33,7 @@
   + `git push origin <branch-name>`: push the specified branch to the remote repository.
 - `git pull` command: pulls changes from remote branch into the current local branch. 
 - `git branch` command: lists all local branches while indicating the current branch.
+- `git checkout` command: switch to specified branch.Or create a new branch.
+  + `git checkout <branch-name>`: switches to the specified branch.
+  + `git checkout -b <new-branch-name>`: creates a new branch and switches to it. This new branch is based off of the current branch.
 
