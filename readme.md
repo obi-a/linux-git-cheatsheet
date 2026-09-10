@@ -36,4 +36,6 @@
 - `git checkout` command: switch to specified branch.Or create a new branch.
   + `git checkout <branch-name>`: switches to the specified branch.
   + `git checkout -b <new-branch-name>`: creates a new branch and switches to it. This new branch is based off of the current branch.
+- `git merge` command: merges the specified branch into the current branch. 
+  + `git merge <branch-name>`: merges the specified branch into the current branch.
 
