@@ -1,41 +1,41 @@
 # Linux and Git Cheatsheet
 ## Linux Commands
-- `ls` command: lists the files and folders in the current directory.
-- `cd` command: changes to the specified absolute or relative path. For example  
+- **`ls`** command: lists the files and folders in the current directory.
+- **`cd`** command: changes to the specified absolute or relative path. For example  
   + `cd ~`: go to home directory
   + `cd <path>`: go to specified path
   + `cd ..`: go up one directory
-- `mkdir` command: creates a new directory with the specified name in the current directory.
-  + `mkdir <directory-name>` - creates a new directory with the specified name. 
-- `rm` command: removes a file, list of files or directories.
+- **`mkdir`** command: creates a new directory with the specified name in the current directory.
+  + `mkdir <directory-name>`: creates a new directory with the specified name. 
+- **`rm`** command: removes a file, list of files or directories.
   + `rm <filename>`: deletes the specified file.
   + `rm <file1> <file2> <file3>`: Deletes the specified files.
   + `rm -d <folder>`: Deletes empty directory.
   + `rm -r <folder>`: recursively delete directory and all its contents, including sub-directories. 
-- `cp` command: Copies source file to the destination
+- **`cp`** command: copies source file to the destination.
   + `cp <source-file> <destination-file>`: copies source file to the destination-file. 
-- `pwd` command: displays the path of the current working directory. 
-- `touch` command: creates a single or multiple new files with the specified name(s).
+- **`pwd`** command: displays the path of the current working directory. 
+- **`touch`** command: creates a single or multiple new files with the specified name(s).
   + `touch <filename>`: creates the specified file. 
   + `touch <file1> <file2> <file3>`: creates the specified files.
-- `cat` command: displays the contents of the specified file or files on the screen.
+- **`cat`** command: displays the contents of the specified file or files on the screen.
   + `cat <filename>`: displays the contents of the specified file on screen.
   + `cat <file1> <file2> <file3>`: displays the contents of the specified files on the screen.
 
 ## Git Commands
-- `git add` command: stages a file or group of files. 
+- **`git add`** command: stages a file or group of files. 
   + `git add .`: stages all untracked files in the current git workspace.
   + `git add <filename>`: stages the specified file.
-- `git commit` command: commits the staged files.
+- **`git commit`** command: commits the staged files.
   + `git commit -m <message>`: makes a commit with the specified message.
   + `git commit`: opens the editor for writing a commit message and then it commits with the message.
-- `git push` command: push local branch to the remote repository
-  + `git push origin <branch-name>`: push the specified branch to the remote repository.
-- `git pull` command: pulls changes from remote branch into the current local branch. 
-- `git branch` command: lists all local branches while indicating the current branch.
-- `git checkout` command: switch to specified branch.Or create a new branch.
+- **`git push`** command: pushes local branch to the remote repository.
+  + `git push origin <branch-name>`: pushes the specified branch to the remote repository.
+- **`git pull`** command: pulls changes from remote branch into the current local branch. 
+- **`git branch`** command: lists all local branches while indicating the current branch.
+- **`git checkout`** command: switches to specified branch, or creates a new branch.
   + `git checkout <branch-name>`: switches to the specified branch.
   + `git checkout -b <new-branch-name>`: creates a new branch and switches to it. This new branch is based off of the current branch.
-- `git merge` command: merges the specified branch into the current branch. 
+- **`git merge`** command: merges the specified branch into the current branch. 
   + `git merge <branch-name>`: merges the specified branch into the current branch.
-- `git status`: Shows the staged, unstaged and untracked changes in the current local branch and working directory.
+- **`git status`** command: shows the staged, unstaged and untracked changes in the current local branch and working directory.
