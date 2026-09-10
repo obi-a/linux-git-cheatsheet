@@ -31,6 +31,6 @@
   + `git commit`: opens the editor for writing a commit message and then it commits with the message.
 - `git push` command: push local branch to the remote repository
   + `git push origin <branch-name>`: push the specified branch to the remote repository.
-
+- `git pull` command: pulls changes from remote branch into the current local branch. 
 
 
