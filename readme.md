@@ -32,5 +32,5 @@
 - `git push` command: push local branch to the remote repository
   + `git push origin <branch-name>`: push the specified branch to the remote repository.
 - `git pull` command: pulls changes from remote branch into the current local branch. 
-
+- `git branch` command: lists all local branches while indicating the current branch.
 
